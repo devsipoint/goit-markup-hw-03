@@ -22,23 +22,25 @@
   <body>
     <!-- Header section -->
     <header class="header">
+      <div class="header-container container">
+         <!-- Header logo -->
       <a class="link header-logo-lp" href="./index.html"
-        >Web<span class="link header-logo-rp">Studio</span></a
-      >
+        >Web<span class="link header-logo-rp">Studio</span></a>
+         <!-- Header nav -->
       <nav class="header-nav">
         <ul class="list header-list">
           <li class="header-item">
-            <a class="link header-link" href="./index.html">Studio</a>
+            <a class="link header-nav-link" href="./index.html">Studio</a>
           </li>
           <li class="header-item">
             <a
-              class="link header-link header-link-current"
+              class="link header-nav-link header-link-current"
               href="./portfolio.html"
               >Portfolio</a
             >
           </li>
           <li class="header-item">
-            <a class="link header-link" href="#">Contacts</a>
+            <a class="link header-nav-link" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -54,12 +56,15 @@
           >
         </li>
       </ul>
+      </div>
     </header>
-
+     <!-- MAIN SECTION -->
     <main>
-      <section class="portfolio">
+      <section class="portfolio section">
+        <div class="container">
         <h1 class="visually-hidden">Portfolio</h1>
-        <ul class="list filter-btn-list">
+         <!-- buttons -->
+        <ul class="list filter-btn-list pf-btn-container">
           <li>
             <button class="filter-btn current-btn btn" type="button">
               All
@@ -76,17 +81,22 @@
             <button class="filter-btn btn" type="button">Marketing</button>
           </li>
         </ul>
-        <ul class="list portfolio-list">
+      
+      <!-- Portfolio Gallery -->
+      
+      <ul class="list portfolio-list pf-gallery-container">
           <li class="portfolio-item">
             <img
               class="pf-item-img"
               src="./images/portfolio/pf1-bankapp.jpg"
               alt="Banking App Interface Concept"
-              width="370"
-              height="294"
+              width="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Banking App Interface Concept</h2>
             <p class="pf-card-title">App</p>
+          </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -94,10 +104,12 @@
               src="./images/portfolio/pf2-cashless.jpg"
               alt="Cashless Payment"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Cashless Payment</h2>
             <p class="pf-card-title">Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -105,10 +117,12 @@
               src="./images/portfolio/pf3-meditation.jpg"
               alt="Meditation App"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Meditation App</h2>
             <p class="pf-card-title">App</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -116,10 +130,12 @@
               src="./images/portfolio/pf4-taxi.jpg"
               alt="Taxi Service"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Taxi Service</h2>
             <p class="pf-card-title">Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -127,10 +143,12 @@
               src="./images/portfolio/pf5-screen.jpg"
               alt="Screen Illustrations"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Screen Illustrations</h2>
             <p class="pf-card-title">Design</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -138,10 +156,12 @@
               src="./images/portfolio/pf6-online.jpg"
               alt="Online Courses"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Online Courses</h2>
             <p class="pf-card-title">Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -149,10 +169,12 @@
               src="./images/portfolio/pf7-insta.jpg"
               alt="Online Courses"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Instagram Stories Concept</h2>
             <p class="pf-card-title">Design</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -160,10 +182,12 @@
               src="./images/portfolio/pf8-organic.jpg"
               alt="Instagram Stories Concept"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Organic Food</h2>
             <p class="pf-card-title">Web Site</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -171,17 +195,21 @@
               src="./images/portfolio/pf9-coffee.jpg"
               alt="Fresh Coffee"
               width="360"
-              height="360"
+              height="300"
             >
+            <div class="pf-card-wrapper">
             <h2 class="pf-card-header">Fresh Coffee</h2>
             <p class="pf-card-title">Web Site</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer section -->
-    <footer class="footer">
+    <footer class="footer section">
+      <div class="container">
       <a class="link footer-logo-lp" href="./index.html"
         >Web<span class="link footer-logo-rp">Studio</span></a
       >
@@ -215,6 +243,7 @@
         marketing & growth solutions.
         </p>
       </div>
+    </div>
     </footer>
   </body>
 </html>
