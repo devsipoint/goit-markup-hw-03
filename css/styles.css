@@ -1,8 +1,8 @@
 /* INDEX.html page */
 :root {
   /* fonts */
-  --main-font: "Roboto", "sans-serif";
-  --secondary-font: "Raleway", "san-serif";
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 
   /* text colors */
   --main-text-color-nb: #2E2F42;
@@ -34,8 +34,9 @@ body {
   font-family: var(--main-font);
   color: var(--main-text-color-slate);
   background-color: var(--main-bg-color-wt);
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  font-size: 16px;
+  font-family: var(--main-font);
+  
 }
 
 /* reset styles */
@@ -62,6 +63,7 @@ ul {
 .link {
   text-decoration: none;
   color: var(--main-text-color-slate);
+  font-style: normal;
 }
 .btn {
   font-family: inherit;
@@ -123,21 +125,9 @@ ul {
   outline-offset: -2px; */
 }
 
-.header-email,
-.header-phone {
-  color: var(--main-text-color-slate);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-}
 
-.header-phone:hover,
-.header-phone:focus,
-.header-email:hover,
-.header-email:focus {
-  color: var(--main-text-color-ocean);
-}
+
+
 
 /* Elements */
 
@@ -182,7 +172,7 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(24 / 18);
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--main-text-color-nb);
 }
@@ -191,8 +181,7 @@ ul {
   display: flex;
   gap: 40px;
 }
-.header-email,
-.header-phone {
+.contacts-link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -203,6 +192,11 @@ ul {
 
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--main-text-color-ocean);
+}
+
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--main-text-color-ocean);
@@ -210,6 +204,10 @@ ul {
 
 .header-link-current {
   color: var(--main-text-color-ocean);
+}
+
+.header-address {
+  font-style: normal;;
 }
 
 /* hero section */
@@ -247,6 +245,7 @@ ul {
 }
 
 .hero-btn {
+  font-family: var(--main-font);
   
   padding: 16px 32px;
   color: var(--btn-text-color-w);
@@ -274,13 +273,13 @@ ul {
   
 
 .features-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
   color: var(--main-text-color-nb);
-  margin-bottom: 8px;
+
 }
 
 .features-text {
@@ -317,6 +316,7 @@ ul {
 
 .team-card-item {
   margin: 0px;
+  background-color: var(--main-bg-color-wt);
 }
 
 .team-card-list-container {
