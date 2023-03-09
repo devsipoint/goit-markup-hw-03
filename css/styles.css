@@ -187,7 +187,7 @@ ul {
   padding-bottom: 24px;
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(16 / 24);
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
 
 }
@@ -235,7 +235,7 @@ ul {
   color: var(--main-bg-color-wt);
   font-weight: 700;
   font-size: 55px;
-  line-height: calc(55 / 60);
+  line-height: calc(60 / 55);
   text-align: center;
   letter-spacing: 0.02em;
   padding-left: 320px;
@@ -447,7 +447,7 @@ address {
   margin-top: 0px;
   row-gap: 48px;
   column-gap: 24px;
-  /* padding-inline-start: 0px; */
+  
  
  
   
