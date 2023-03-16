@@ -95,9 +95,10 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* .section:nth-child(odd) {
+  
+.section:nth-child(3) {
   padding-top: 0;
-} */
+}
 
 
 .container {
@@ -268,7 +269,7 @@ img {
   display: block;
   font-family: var(--main-font);
   margin: 0 auto;
-  
+
   padding: 16px 32px;
   color: var(--btn-text-color-w);
   background-color: var(--btn-bgc-color-iris);
@@ -303,6 +304,7 @@ img {
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: var(--main-text-color-nb);
+  margin-bottom: 8px;
 
 }
 
@@ -315,6 +317,9 @@ img {
 }
 
 /* what we do section / our team section */
+/* .what-we-do {
+  padding-top: 0px;
+} */
 
 .wwd-img-list-container {
   display: flex;
@@ -365,7 +370,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-text-color-nb);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .team-card-title {
   font-weight: 400;
@@ -396,16 +401,12 @@ img {
 
 .footer {
   background-color: var(--main-bg-color-dk);
-  max-width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
-  
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-lp {
-  display: block;
-  padding-top: 100px;
-  padding-bottom: 16px;
+  
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -439,14 +440,17 @@ img {
 
 /* portfolio section */
 
+.portfolio {
+  padding-top: 96px;
+}
+
 /*buttons controls */
 
 .pf-btn-container {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   justify-content: center;
   align-items: center;
 
@@ -477,6 +481,8 @@ img {
 
 /* portfolio cards */
 
+
+
 /* .portfolio-list {
    
 } */
@@ -499,7 +505,7 @@ img {
   /* outline: 2px solid red;
   outline-offset: -2px ; */
 }
-
+ 
  
 .pf-card-header {
   font-weight: 500;
@@ -507,6 +513,7 @@ img {
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: var(--main-text-color-nb);
+  margin-bottom: 8px;
 }
 .pf-card-title {
   font-weight: 400;
