@@ -102,7 +102,7 @@ img {
 
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -294,7 +294,7 @@ img {
   gap: 24px;
 }
   .features-item {
-    flex-basis: calc((100% - (24px * 3)) / 4);  
+    flex-basis: calc((100% - 24px * 3) / 4);  
   }
 
 .features-title {
@@ -387,7 +387,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  padding-right: auto;
+  padding-right: 16px;
 
   /* border: 1px solid var(--accent-text-color-cf); */
   /* border-top: none; */
@@ -406,7 +406,6 @@ img {
 }
 
 .footer-logo-lp {
-  
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -433,6 +432,8 @@ img {
   line-height: calc(24 / 16);
   color: var(--accent-text-color-cf);
   letter-spacing: 0.02em;
+  margin-top: 16px;
+
   }
 
 
@@ -526,8 +527,8 @@ img {
 .pf-card-wrapper {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 10px;
-  padding-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 
   border: 1px solid var(--accent-text-color-cf);
   border-top: none;
